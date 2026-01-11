@@ -1,0 +1,103 @@
+{
+    "chapterTitle": "Variables and Data Types",
+    "overview": "Learn how Python stores values using variables and different data types, forming the foundation for all programs.",
+    "slides": [
+        {
+            "title": "What Is a Variable?",
+            "content": "A variable is a name that stores a value in memory. It lets you reuse and update data without rewriting values every time. Variables help programs stay flexible and readable.",
+            "explainMore": "In Python, variables are created when you assign a value using the equals sign. You don’t need to declare the type beforehand. The variable simply points to the value in memory, and Python manages the details automatically.",
+            "deeperConcepts": "Python variables are references, not containers. This means the variable points to an object in memory rather than holding the value itself.",
+            "quickExamples": "x = 10\nname = \"Alice\"\nprice = 99.5",
+            "analogy": "Think of a variable as a label on a box. The label stays the same, but the item inside the box can change."
+        },
+        {
+            "title": "Numbers in Python",
+            "content": "Python supports numbers like integers and decimals. These are used for calculations, counting, and measurements.",
+            "explainMore": "Integers represent whole numbers, while floats represent numbers with decimals. Python automatically decides the number type based on the value you assign.",
+            "deeperConcepts": "Python handles large integers efficiently and supports floating-point arithmetic, which may have small precision differences.",
+            "quickExamples": "count = 5\ntemperature = 36.6",
+            "analogy": "Integers are like whole apples, while floats are sliced apples with fractions."
+        },
+        {
+            "title": "Strings: Working With Text",
+            "content": "Strings store text data like names, messages, or sentences. They are written inside quotes.",
+            "explainMore": "Strings can be created using single or double quotes. Python provides many built-in methods to modify and analyze text, such as converting case or finding characters.",
+            "deeperConcepts": "Strings are immutable, meaning once created, they cannot be changed. Any modification creates a new string.",
+            "quickExamples": "name = \"Python\"\nmessage = 'Hello World'",
+            "analogy": "A string is like a sentence written on paper—you can read it, but changing it means rewriting the paper."
+        },
+        {
+            "title": "Booleans: True or False",
+            "content": "Booleans represent logical values: True or False. They are used in conditions and decision-making.",
+            "explainMore": "Boolean values are often the result of comparisons. They help control program flow using conditions like if and while.",
+            "deeperConcepts": "Booleans are a subtype of integers in Python, where True equals 1 and False equals 0.",
+            "quickExamples": "is_active = True\nis_empty = False",
+            "analogy": "Booleans are like light switches—they can only be ON or OFF."
+        },
+        {
+            "title": "Checking Data Types",
+            "content": "You can check the type of any value using Python’s built-in tools. This helps avoid errors and confusion.",
+            "explainMore": "The type() function returns the data type of a variable. It’s useful when debugging or working with unknown data.",
+            "deeperConcepts": "Understanding data types helps prevent type-related errors and ensures correct operations between values.",
+            "quickExamples": "type(10)\ntype(\"Hello\")",
+            "analogy": "Checking a data type is like checking a food label before cooking—it tells you what you’re working with."
+        }
+    ],
+    "quiz": [
+        {
+            "question": "What is a variable in Python?",
+            "options": [
+                "A container that stores a fixed value forever",
+                "A name that refers to a value in memory",
+                "A specific data type for text",
+                "A command to print output"
+            ],
+            "correctAnswer": "A name that refers to a value in memory",
+            "explanation": "Variables in Python are references to objects in memory, allowing data to be reused and updated."
+        },
+        {
+            "question": "Which of the following is an integer?",
+            "options": [
+                "10.5",
+                "\"10\"",
+                "10",
+                "True"
+            ],
+            "correctAnswer": "10",
+            "explanation": "Integers are whole numbers without decimals. 10.5 is a float, \"10\" is a string, and True is a boolean."
+        },
+        {
+            "question": "How do you create a string in Python?",
+            "options": [
+                "By using brackets []",
+                "By using parentheses ()",
+                "By using quotes \" \" or ' '",
+                "By using curly braces {}"
+            ],
+            "correctAnswer": "By using quotes \" \" or ' '",
+            "explanation": "Strings are sequences of characters enclosed in either single (') or double (\") quotes."
+        },
+        {
+            "question": "What is the result of type(True)?",
+            "options": [
+                "<class 'int'>",
+                "<class 'bool'>",
+                "<class 'str'>",
+                "<class 'float'>"
+            ],
+            "correctAnswer": "<class 'bool'>",
+            "explanation": "True and False are boolean values, so type(True) returns <class 'bool'>."
+        },
+        {
+            "question": "Which statement about Python variables is TRUE?",
+            "options": [
+                "You must declare the type before assigning a value.",
+                "Variables can only hold numbers.",
+                "Variables cannot be reassigned.",
+                "Variables are created when you assign a value."
+            ],
+            "correctAnswer": "Variables are created when you assign a value.",
+            "explanation": "Python is dynamically typed, so you don't declare types. The variable is created the moment you assign a value to it."
+        }
+    ]
+}

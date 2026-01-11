@@ -1,0 +1,81 @@
+{
+    "title": "Python Basics",
+    "description": "A simple, beginner-friendly course covering the core concepts of Python through clear, bite-sized lessons.",
+    "chapters": [
+        {
+            "title": "What Is Python?",
+            "shortDescription": "A simple overview of Python and why it's widely used.",
+            "order": 1
+        },
+        {
+            "title": "Python Syntax Essentials",
+            "shortDescription": "Basic rules like indentation, keywords, and how Python reads code.",
+            "order": 2
+        },
+        {
+            "title": "Variables and Data Types",
+            "shortDescription": "Understanding numbers, strings, booleans, and how Python stores values.",
+            "order": 3
+        },
+        {
+            "title": "Working With Strings",
+            "shortDescription": "Basic string operations like slicing, formatting, and common methods.",
+            "order": 4
+        },
+        {
+            "title": "Operators in Python",
+            "shortDescription": "Learn arithmetic, comparison, and logical operators used in expressions.",
+            "order": 5
+        },
+        {
+            "title": "Conditional Statements",
+            "shortDescription": "How to use if, elif, and else to make decisions in code.",
+            "order": 6
+        },
+        {
+            "title": "Loops: for and while",
+            "shortDescription": "Using loops to repeat tasks and process sequences.",
+            "order": 7
+        },
+        {
+            "title": "Lists and Basic List Methods",
+            "shortDescription": "Storing multiple items and using common list operations.",
+            "order": 8
+        },
+        {
+            "title": "Tuples and Sets",
+            "shortDescription": "Immutable tuples and unique-value sets explained simply.",
+            "order": 9
+        },
+        {
+            "title": "Dictionaries",
+            "shortDescription": "Key-value pairs and how to access, add, or update data.",
+            "order": 10
+        },
+        {
+            "title": "Functions: Define and Use",
+            "shortDescription": "Creating reusable blocks of code with parameters and returns.",
+            "order": 11
+        },
+        {
+            "title": "Built-in Functions",
+            "shortDescription": "Useful built-ins like len(), range(), sum(), and more.",
+            "order": 12
+        },
+        {
+            "title": "Error Handling Basics",
+            "shortDescription": "Understanding common Python errors and simple try-except usage.",
+            "order": 13
+        },
+        {
+            "title": "Intro to Modules",
+            "shortDescription": "How to import and use Python’s built-in modules.",
+            "order": 14
+        },
+        {
+            "title": "Working With Simple Files",
+            "shortDescription": "Reading from and writing to text files using Python.",
+            "order": 15
+        }
+    ]
+}

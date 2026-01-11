@@ -1,0 +1,98 @@
+{
+    "type": "object",
+    "properties": {
+        "chapterTitle": {
+            "type": "string",
+            "description": "Title of the chapter."
+        },
+        "overview": {
+            "type": "string",
+            "description": "Brief overview of what the chapter covers."
+        },
+        "slides": {
+            "type": "array",
+            "description": "List of educational slides for the chapter.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "description": "Title of the slide."
+                    },
+                    "content": {
+                        "type": "string",
+                        "description": "Main educational content."
+                    },
+                    "explainMore": {
+                        "type": "string",
+                        "description": "Detailed explanation for deep diving."
+                    },
+                    "deeperConcepts": {
+                        "type": "string",
+                        "description": "Advanced concepts related to the topic."
+                    },
+                    "quickExamples": {
+                        "type": "string",
+                        "description": "Short code snippets or examples."
+                    },
+                    "analogy": {
+                        "type": "string",
+                        "description": "Real-world analogy to explain the concept."
+                    }
+                },
+                "required": [
+                    "title",
+                    "content",
+                    "explainMore",
+                    "deeperConcepts",
+                    "quickExamples",
+                    "analogy"
+                ]
+            }
+        },
+        "quiz": {
+            "type": "array",
+            "description": "A quiz to test the user's knowledge at the end of the chapter.",
+            "minItems": 5,
+            "maxItems": 5,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "question": {
+                        "type": "string",
+                        "description": "The question text."
+                    },
+                    "options": {
+                        "type": "array",
+                        "description": "List of 4 possible answers.",
+                        "minItems": 4,
+                        "maxItems": 4,
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "correctAnswer": {
+                        "type": "string",
+                        "description": "The correct answer from the options list."
+                    },
+                    "explanation": {
+                        "type": "string",
+                        "description": "Explanation for why the answer is correct."
+                    }
+                },
+                "required": [
+                    "question",
+                    "options",
+                    "correctAnswer",
+                    "explanation"
+                ]
+            }
+        }
+    },
+    "required": [
+        "chapterTitle",
+        "overview",
+        "slides",
+        "quiz"
+    ]
+}
